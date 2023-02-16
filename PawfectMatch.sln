@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawfectMatch.PawfectMatchAPI", "PawfectMatch.PawfectMatchAPI\PawfectMatch.PawfectMatchAPI.csproj", "{E7041804-8FCC-4FAB-BFC6-860AC321EED4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawfectMatch.JwtIssuer", "PawfectMatch.JwtIssuer\PawfectMatch.JwtIssuer.csproj", "{F27B1DF7-73FD-49D3-BBAB-0CBE693B789E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawfectMatch.ExceptionHandling", "PawfectMatch.ExceptionHandling\PawfectMatch.ExceptionHandling.csproj", "{6E6A6B3B-EBEB-4F4F-AC73-4108491E2C7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawfectMatch.DataLayer", "PawfectMatch.DataLayer\PawfectMatch.DataLayer.csproj", "{CD7B52F5-4B94-4308-895B-4DFDE4B50832}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawfectMatch.DatabaseRepositoryManager", "PawfectMatch.DatabaseRepositoryManager\PawfectMatch.DatabaseRepositoryManager.csproj", "{0963408A-0133-4670-93CD-320A9E0ECE22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PawfectMatch.DatabaseContextManager", "PawfectMatch.DatabaseContextManager\PawfectMatch.DatabaseContextManager.csproj", "{B60C405E-621A-4BE1-BF6D-875C513786C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7041804-8FCC-4FAB-BFC6-860AC321EED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7041804-8FCC-4FAB-BFC6-860AC321EED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7041804-8FCC-4FAB-BFC6-860AC321EED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7041804-8FCC-4FAB-BFC6-860AC321EED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27B1DF7-73FD-49D3-BBAB-0CBE693B789E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27B1DF7-73FD-49D3-BBAB-0CBE693B789E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27B1DF7-73FD-49D3-BBAB-0CBE693B789E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27B1DF7-73FD-49D3-BBAB-0CBE693B789E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6A6B3B-EBEB-4F4F-AC73-4108491E2C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6A6B3B-EBEB-4F4F-AC73-4108491E2C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6A6B3B-EBEB-4F4F-AC73-4108491E2C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6A6B3B-EBEB-4F4F-AC73-4108491E2C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7B52F5-4B94-4308-895B-4DFDE4B50832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7B52F5-4B94-4308-895B-4DFDE4B50832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7B52F5-4B94-4308-895B-4DFDE4B50832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7B52F5-4B94-4308-895B-4DFDE4B50832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0963408A-0133-4670-93CD-320A9E0ECE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0963408A-0133-4670-93CD-320A9E0ECE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0963408A-0133-4670-93CD-320A9E0ECE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0963408A-0133-4670-93CD-320A9E0ECE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60C405E-621A-4BE1-BF6D-875C513786C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60C405E-621A-4BE1-BF6D-875C513786C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60C405E-621A-4BE1-BF6D-875C513786C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60C405E-621A-4BE1-BF6D-875C513786C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9B7D664-68AC-4884-A550-806A176D5FB2}
+	EndGlobalSection
+EndGlobal
